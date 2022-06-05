@@ -40,7 +40,7 @@
 
 .menu .title_container {
   position: fixed;
-  margin-top: 1rem;
+  margin-top: 10rem;
 }
 
 .menu .title_container .titles_container_1 {
@@ -137,6 +137,7 @@
   }
   .menu .title_container {
     width: 100%;
+    position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
