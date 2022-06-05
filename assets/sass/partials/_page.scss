@@ -1,0 +1,166 @@
+@import './_header';
+
+html,
+
+body {
+    margin: 0;
+    background-color: black;
+
+    .page_container {
+        display: flex;
+        margin-top: 6rem;
+
+        .text_container {
+            margin-left: 4rem;
+
+            .page_title {
+                img {
+                    margin-left: -6.4rem;
+                    height: 150px;
+                    margin-bottom: -2rem;
+
+                }
+
+                #attention_title {
+                    margin-left: -5.7rem;
+                }
+
+                #fakenews_title {
+                    margin-left: -5.2rem;
+                }
+
+                #bots_title {
+                    margin-left: -9.7rem;
+                }
+
+                #biases_title {
+                    margin-left: -8.4rem;
+                }
+
+                #evidence_title {
+                    margin-left: -7.2rem;
+                }
+            }
+
+            .page_text {
+                width: 350px;
+
+                p {
+                    color: white;
+                    text-align: justify;
+                    hyphens: auto;
+
+                }
+
+            }
+
+        }
+
+        .page_video {
+
+            margin-left: 4rem;
+            margin-top: 3rem;
+
+            .youtube_vid {}
+
+        }
+
+        #page_fullvideo {
+            margin-left: 17rem;
+
+            .youtube_vid {
+                
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    @import './_header';
+
+html,
+
+body {
+    margin: 0;
+    background-color: black;
+
+    .page_container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 4rem;
+
+        .text_container {
+            margin-left: 1.9rem;
+
+            .page_title {
+                img {
+                    margin-left: -6.4rem;
+                    height: 150px;
+                    margin-bottom: -2rem;
+
+                }
+
+                #attention_title {
+                    margin-left: -5.7rem;
+                }
+
+                #fakenews_title {
+                    margin-left: -5.2rem;
+                }
+
+                #bots_title {
+                    margin-left: -9.7rem;
+                }
+
+                #biases_title {
+                    margin-left: -8.4rem;
+                }
+
+                #evidence_title {
+                    margin-left: -7.2rem;
+                }
+            }
+
+            .page_text {
+                width: 350px;
+
+                p {
+                    color: white;
+                    text-align: justify;
+                    hyphens: auto;
+
+                }
+
+            }
+
+        }
+
+        .page_video {
+
+            margin-left: 1.9rem;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+
+            .youtube_vid {
+                width: 350px;
+                height: 196.9px;
+            }
+
+        }
+
+        #page_fullvideo {
+            margin-left: 1.9rem;
+            margin-top: 17rem;
+
+            .youtube_vid {
+                
+            }
+        }
+    }
+
+}
+
+
+}

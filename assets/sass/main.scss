@@ -1,0 +1,199 @@
+@import 'lib/_fontface';
+@import 'partials/_menu';
+@import 'partials/_header';
+@import 'partials/_page';
+
+
+$corporateColor: pink;
+
+
+html,
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'univers';
+
+    
+.container {
+    
+    .home{
+       
+        .bg {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            transition: all ease-out 1s;
+            
+            .bg_color{
+                background-color: black;
+                height: 100%;
+                width: 100%;
+                position: fixed;
+                display: flex;
+                justify-content: center;
+                visibility: visible;
+                opacity: 1;
+                
+                .still{
+                    height: 400px;
+                    width: 400px;
+                    position: absolute;
+                    cursor: pointer;
+                    display: flex;
+                    margin-top: 85px;
+                   
+        
+                } 
+        
+                .still:hover{
+                    height: 400px;
+                    width: 400px;
+                    position: absolute;
+                    cursor: pointer;
+                    display: none;
+                    margin-top: 85px;
+                    
+        
+                } 
+        
+                    button{
+                        all: unset;
+                        cursor: pointer;
+                        display: flex;
+                        
+                    
+                    img{
+                        
+                        width: 400px;
+                        height: 400px;
+                        margin-top: 85px;
+        
+                        .show_gif{
+                        }
+                }
+            }
+            }
+        
+            h2{
+                color: #eee;
+                z-index: 999;
+                font-weight: lighter;
+                font-style: normal;
+                font-size: 20px;
+                margin-top: 440px;
+                opacity: 0.4;
+            }
+            }
+        
+        .hidden{
+        display: none;
+        opacity: 0; 
+        }
+
+        
+    }
+
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+html,
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'univers';
+
+    
+.container {
+    
+    .home{
+       
+        .bg {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            transition: all ease-out 1s;
+            
+            .bg_color{
+                background-color: black;
+                height: 100%;
+                width: 100%;
+                position: fixed;
+                display: flex;
+                justify-content: center;
+                visibility: visible;
+                opacity: 1;
+                
+                .still{
+                    height: 400px;
+                    width: 400px;
+                    position: absolute;
+                    cursor: pointer;
+                    display: flex;
+                    margin-top: 225px;
+                    opacity: 0;
+                   
+        
+                } 
+        
+                .still:hover{
+                    height: 400px;
+                    width: 400px;
+                    position: absolute;
+                    cursor: pointer;
+                    display: none;
+                    margin-top: 225px;
+                    
+        
+                } 
+        
+                    button{
+                        all: unset;
+                        cursor: pointer;
+                        display: flex;
+                        
+                    
+                    img{
+                        
+                        width: 400px;
+                        height: 400px;
+                        margin-top: 225px;
+        
+                        .show_gif{
+                        }
+                }
+            }
+            }
+        
+            h2{
+                color: #eee;
+                z-index: 999;
+                font-weight: lighter;
+                font-style: normal;
+                font-size: 20px;
+                margin-top: 600px;
+                opacity: 0.4;
+            }
+            }
+        
+        .hidden{
+        display: none;
+        opacity: 0; 
+        }
+
+        
+    }
+
+}
+
+}
+
+    
+}
