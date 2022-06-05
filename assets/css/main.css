@@ -783,7 +783,7 @@ body .container .home .hidden {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 225px;
+    margin-top: 10rem;
     opacity: 0;
   }
   html .container .home .bg .bg_color .still:hover,
@@ -793,7 +793,7 @@ body .container .home .hidden {
     position: absolute;
     cursor: pointer;
     display: none;
-    margin-top: 225px;
+    margin-top: 10rem;
   }
   html .container .home .bg .bg_color button,
   body .container .home .bg .bg_color button {
@@ -807,7 +807,7 @@ body .container .home .hidden {
   body .container .home .bg .bg_color button img {
     width: 400px;
     height: 400px;
-    margin-top: 225px;
+    margin-top: 10rem;
   }
   html .container .home .bg h2,
   body .container .home .bg h2 {
@@ -816,7 +816,7 @@ body .container .home .hidden {
     font-weight: lighter;
     font-style: normal;
     font-size: 20px;
-    margin-top: 600px;
+    margin-top: 32rem;
     opacity: 0.4;
   }
   html .container .home .hidden,
